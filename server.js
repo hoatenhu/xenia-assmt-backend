@@ -58,7 +58,7 @@ app.get('/data', (req, res) => {
     id: item.id,
     name: item.name,
     email: item.email,
-    avatar: `http://localhost:3001/uploads/${path.basename(item.avatar)}`,
+    avatar: `https://xenia-assmt-backend.onrender.com/uploads/${path.basename(item.avatar)}`,
   }));
 
   res.json(simplifiedData);
