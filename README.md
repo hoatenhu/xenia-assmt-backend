@@ -36,7 +36,9 @@ Make sure you have the following installed:
 1. Running the Server:
     ```bash
     yarn start
-    
+2. Run tests:
+    ```bash
+    yarn test
 ## Endpoint
 
 I hosted backend on [Render](https://render.com/) with url https://xenia-assmt-backend.onrender.com
